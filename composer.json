@@ -1,0 +1,28 @@
+{
+    "name": "larapro/proadmin",
+    "description": "Admin panel by larapro",
+    "type": "library",
+    "license": "GNU GPLv3",
+    "authors": [{
+        "email": "lara.pro.adm@gmail.com",
+        "homepage": "https://laraproadmin.com"
+    }],
+    "require": {
+        "unisharp/laravel-filemanager": "2.6.0",
+        "mobiledetect/mobiledetectlib": "^3.74",
+        "maatwebsite/excel": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larapro\\Proadmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larapro\\Proadmin\\ProadminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
