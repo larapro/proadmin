@@ -2,7 +2,7 @@
     "name": "larapro/proadmin",
     "description": "Admin panel by larapro",
     "type": "library",
-    "license": "GNU GPLv3",
+    "license": "GPL-3.0-only",
     "authors": [{
         "email": "lara.pro.adm@gmail.com",
         "homepage": "https://laraproadmin.com"
